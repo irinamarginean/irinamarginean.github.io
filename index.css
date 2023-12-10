@@ -1,0 +1,13 @@
+.flex-container {
+    display: grid;
+
+    
+}
+
+.left-side {
+    background-color: red;
+}
+
+.main-content {
+    background-color: blue;
+}
