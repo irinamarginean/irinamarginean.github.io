@@ -1,3 +1,7 @@
+html {
+  font-family: Georgia, serif;
+}
+
 .content {
   margin: 0;
   min-height: 100vh;
@@ -41,7 +45,7 @@
   color: black;
   font-size: 1.75rem;
   text-decoration: none;
-  font-family: Georgia, serif;
+  
 }
 
 .navbar-list {
@@ -71,16 +75,28 @@
   justify-content: space-around;
 }
 
+.footer-section .left, .footer-section .middle, .footer-section .right {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-section .left {
-  /* width: 33%; */
+  flex-direction: column;
 }
 
 .footer-section .middle {
-  /* width: 33%; */
+  width: 33%;
 }
 
 .footer-section .right {
-  /* width: 33%; */
+  width: 33%;
+}
+
+.footer-section .right img {
+  width: 2em;
+  padding: 0 1em 0 0;
 }
 
 .footer-section .logo {
