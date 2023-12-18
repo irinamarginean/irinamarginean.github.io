@@ -12,17 +12,33 @@ html {
 .flex-container {
   display: grid;
   grid-template-columns: 25% 75%;
+  flex-grow: 1;
 }
 
 .left-side {
-  background-color: red;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-right-color: #eaeaeb !important;
+  border-right-width: 1px !important;
+  border: 0 solid #e5e7eb;
+}
+
+.left-side img {
+  border-radius: 50%;
+  width: 80%;
+  margin: 2rem 0 0 0;
 }
 
 .main-content {
-  background-color: blue;
+  background-color: whitesmoke;
 }
 
 .navbar {
+  height: 8vh;
   display: flex;
   flex-direction: row;
   align-content: flex-end;
@@ -43,7 +59,7 @@ html {
 .navbar-name {
   padding: 2px 20px;
   color: black;
-  font-size: 1.75rem;
+  font-size: 1.75em;
   text-decoration: none;
   
 }
@@ -55,7 +71,7 @@ html {
 
 .navbar-item {
   padding: 10px 20px 10px 0;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-family: Georgia, serif;
   text-decoration: none;
   color: black;
@@ -100,5 +116,5 @@ html {
 }
 
 .footer-section .logo {
-  width: 20em;
+  width: 33%;
 }
