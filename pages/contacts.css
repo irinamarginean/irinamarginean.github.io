@@ -108,4 +108,10 @@
         flex-direction: column;
         align-items: stretch;
     }
+
+    .navbar-list.active {
+        margin-top: 40px;
+    }
   }
+
+  
