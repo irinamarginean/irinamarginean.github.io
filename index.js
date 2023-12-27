@@ -6,11 +6,6 @@ hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
-hamburger.addEventListener("hover", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-});
-
 
 document.querySelectorAll(".link").forEach( n => {
     n.addEventListener("click", () => {

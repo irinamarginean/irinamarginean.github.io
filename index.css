@@ -291,3 +291,17 @@ html {
     border-bottom: solid #eaeaeb 1px !important;
   }
 }
+
+@media (max-width: 320px) {
+  .content {
+    width: 320px;
+  }
+  
+  .flex-container {
+    width: 320px;
+  }
+
+  .footer-section {
+    width: 320px;
+  }
+}

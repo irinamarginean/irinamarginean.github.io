@@ -1,5 +1,6 @@
 .contacts-container {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     align-items: center;
     border: 0 solid #e5e7eb;
@@ -81,5 +82,30 @@
   
     .navbar-list.active .dropdown-content a:hover {
       background-color: rgb(123, 151, 184);
+    }
+  }
+
+  @media (max-width: 700px) {
+    .footer-section {
+      display: flex;
+      flex-direction: column;
+      transition: 0.3s;
+    }
+  
+    .flex-container {
+      flex-direction: column;
+      transition: 0.3s;
+    }
+  
+    .left-side {
+      border: 0 solid #e5e7eb;
+      border-bottom: solid #eaeaeb 1px !important;
+    }
+  }
+
+  @media (max-width: 495px) {
+    .navbar-left {
+        flex-direction: column;
+        align-items: stretch;
     }
   }
