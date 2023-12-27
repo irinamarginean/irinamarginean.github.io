@@ -8,6 +8,7 @@
     <link rel="icon" href="images/logo.jpg">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width">
+    
 </head>
 
 <body class="content">
@@ -19,22 +20,32 @@
             <div>
                 <ul class="navbar-list">
                     <li class="navbar-item">
-                        <a class="navbar-item link" href="index.html">
+                        <a class="navbar-item link active" href="index.html">
                             Home
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-item link" href="#">
-                            About me
-                        </a>
+                        <div class="dropdown">
+                            <button class="dropdown-btn navbar-item link">About Me</button>
+                            <div class="dropdown-content">
+                                <a href="pages/education.html">Education</a>
+                                <a href="pages/experience.html">Professional Experience</a>
+                            </div>
+                        </div>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-item link" href="#">
-                            Teaching
-                        </a>
+                        <div class="dropdown">
+                            <button class="dropdown-btn navbar-item link">Teaching</button>
+                            <div class="dropdown-content">
+                                <a href="pages/wp.html">Web Programming</a>
+                                <a href="pages/db.html">Database Management Systems</a>
+                                <a href="pages/pp.html">Parallel Programming</a>
+                                <a href="pages/dm.html">Data Mining</a>
+                            </div>
+                        </div>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-item link" href="#">
+                        <a class="navbar-item link" href="pages/research.html">
                             Research
                         </a>
                     </li>
@@ -43,7 +54,15 @@
                             Contact
                         </a>
                     </li>
+                    <li class="nav-item">
+                        
+                    </li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+               </div>
             </div>
         </nav>
     </header>
@@ -62,25 +81,25 @@
                 <div>Department of Computer Science</div>
             </div>
             <div>
-                <h2>
+                <h1>
                     Courses
-                </h2>
-                <ul>
+                </h1>
+                <ul class="course-list">
                     <li>
-                        <h3>Web Programming</h3>
-                        <div>Bachelor, Year 1, Semester 2</div>
+                        <h2> <a href="pages/wp.html">Web Programming</a></h2>
+                        <div>Bachelor's, Year 1, Semester 2</div>
                     </li>
                     <li>
-                        <h3>Database Management Systems</h3>
-                        <div>Bachelor, Year 2, Semester 2</div>
+                        <h2> <a href="pages/db.html">Database Management Systems</a></h2>
+                        <div>Bachelor's, Year 2, Semester 2</div>
                     </li>
                     <li>
-                        <h3>Parallel Programming</h3>
-                        <div>Bachelor, Year 2, Semester 2</div>
+                        <h2><a href="pages/pp.html">Parallel Programming</a></h2>
+                        <div>Bachelor's, Year 2, Semester 2</div>
                     </li>
                     <li>
-                        <h3>Data Mining</h3>
-                        <div>Master, Year 1, Semester 1</div>
+                        <h2><a href="pages/dm.html">Data Mining</a></h2>
+                        <div>Master's, Year 1, Semester 1</div>
                     </li>
                 </ul>
             </div>
@@ -110,4 +129,5 @@
             </div>
         </footer>
     </div>
+    <script src="index.js"></script>
 </body>
