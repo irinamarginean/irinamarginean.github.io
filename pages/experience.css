@@ -1,4 +1,4 @@
-.education-container {
+.experience-container {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -6,11 +6,11 @@
     padding: 6rem 0;
 }
 
-.education-container h1 {
+.experience-container h1 {
   align-self: center;
 }
 
-.education-card {
+.experience-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -18,19 +18,18 @@
   font-size: 1.25rem;
   text-align: start;
 }
-.education-points {
+.experience-points {
   display: flex;
   flex-direction: column;
-  
 }
 
-.education-card p {
+.experience-card p {
   display: flex;
     font-size: 1.45rem;
     align-items: flex-start !important;
 }
 
-.education-card a {
+.experience-card a {
     text-decoration: none;
     color: rgb(79, 114, 153);
     font-weight: 700;
